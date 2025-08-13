@@ -3,20 +3,20 @@
 
 int strlen(char* str) {
 
-int count = 0;
+int lenght = 0;
 
-while (*(str + count) != '\0') {
-count++
+while (str[lenght] != '\0') {
+lenght++
 
 }
 
 
-return count;
+return lenght;
 
 }
 int main() {
 
-char arr[] = "HELLO";
+char str[] = "HELLO";
 int size = stren(str);
 printf("%d", size);
 
